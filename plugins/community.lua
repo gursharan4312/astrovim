@@ -8,4 +8,5 @@ return {
   -- { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.scrolling.vim-smoothie" },
 }
