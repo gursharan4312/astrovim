@@ -31,15 +31,20 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    
     ["<S-Up>"] = { "<cmd>resize -2<CR>", desc = "Resize split up" },
     ["<S-Down>"] = { "<cmd>resize +2<CR>", desc = "Resize split down" },
     ["<S-Left>"] = { "<cmd>vertical resize -2<CR>", desc = "Resize split left" },
     ["<S-Right>"] = { "<cmd>vertical resize +2<CR>", desc = "Resize split right" },
 
+    ["<A-j>"] = { "<cmd>:m +1<CR>", desc = "move line down" },
+    ["<A-k>"] = { "<cmd>:m -2<CR>", desc = "move line up" },
   },
   t = {
     -- setting a mapping to false will disable it
     -- ["<esc>"] = false,
   },
+  v = {
+    ["<A-j>"] = { "<cmd>:m +1<CR>", desc = "move line down" },
+    ["<A-k>"] = { "<cmd>:m -2<CR>", desc = "move line up" },
+  }
 }
