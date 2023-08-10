@@ -1,6 +1,4 @@
 -- Mapping data with "desc" stored directly by vim.keymap.set().
-local utils = require "astronvim.utils"
-local is_available = utils.is_available
 --
 -- Please use this mappings table to set keyboard mapping since this is the
 -- lower level configuration and more robust one. (which-key will
