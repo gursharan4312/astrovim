@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.git.diffview-nvim" },
   { import = "astrocommunity.scrolling.vim-smoothie" },
   { import = "astrocommunity.bars-and-lines.heirline-vscode-winbar" },
+  { import = "astrocommunity.indent.indent-tools-nvim" },
 }
