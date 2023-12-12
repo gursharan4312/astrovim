@@ -38,6 +38,8 @@ return {
 
     ["<A-j>"] = { "<cmd>:m +1<CR>", desc = "move line down" },
     ["<A-k>"] = { "<cmd>:m -2<CR>", desc = "move line up" },
+    
+    ["<leader>W"] = { "<cmd>:noa w<CR>", desc = "save without formatting" },
   },
   t = {
     -- setting a mapping to false will disable it
