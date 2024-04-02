@@ -42,6 +42,8 @@ return {
     ["<leader>W"] = { "<cmd>:noa w<CR>", desc = "save without formatting" },
 
     ["<S-e>"] = { "<cmd>:lua vim.diagnostic.open_float()<CR>", desc = "show error in float" },
+
+    ["<S-g>"] = { "<cmd>:GitBlameOpenCommitURL<CR>", desc = "show error in float" },
   },
   t = {
     -- setting a mapping to false will disable it
